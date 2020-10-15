@@ -6,8 +6,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  width: 100%
-
+  width: 100%;
 }
 
 .bg_blue {
@@ -87,6 +86,7 @@ body {
   color: white;
   border-radius: 10%;
   margin: 0 20px;
+  padding: 5px;
 }
 
 .login {
@@ -97,9 +97,7 @@ body {
 }
 
 .green {
-  width: 162px;
-  height: 23px;
-  background-color: #7CBB02
+  background-color: #7CBB02;
 }
 
 .banner {
@@ -139,7 +137,6 @@ body {
 
 .first {
   width: 100%;
-
   border-bottom: 1px solid black
 }
 
@@ -164,11 +161,12 @@ body {
 }
 
 .info_header {
-  color: green;
-  width: 100%
+  color: #7CBB02;
+  width: 109%
 }
-.info_text{
-color: lightgrey;
+
+.info_text {
+  color: lightgrey;
 }
 
 .mountain {
@@ -184,7 +182,7 @@ color: lightgrey;
 
 .text-right {
   float: left;
-  width: 40%;
+  width: 37%;
 }
 
 .header_plan {
@@ -201,6 +199,21 @@ color: lightgrey;
   margin-top: 20px
 }
 
+.le, .ri {
+  float: left;
+}
+
+.le {
+  width: 50%
+}
+
+.ri {
+  width: 50%;
+  text-align: center;
+}
+
 .titolone {
   text-align: center;
+  font-size: 30px;
+  margin-top: 25px;
 }
