@@ -1,114 +1,124 @@
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
-body{
+
+body {
   font-family: 'Roboto', sans-serif;
+  width: 100%
+
 }
 
-.bg_blue{
+.bg_blue {
   background: #0d325a;
-
 }
-.bg_green{
+
+.bg_green {
   background: #7CBB02;
-
 }
-.bg_grey{
+
+.bg_grey {
   background: #D3D3D3;
 }
 
-#site_header{
+#site_header {
   height: 500px;
   width: 100%;
-   color: white;
+  color: white;
   position: relative;
 }
 
-#site_content{
-  height: 1000px
-
+#site_content {
+  height: 1400px
 }
-#site_footer{
+
+#site_footer {
   height: 150px
 }
-.container{
-  width: 80%;
+
+.container {
+  width: 100%;
   margin: auto;
 }
 
-.navbar{
-  width: 90%;
+.navbar {
+  width: 100%;
   line-height: 80px;
   color: white;
   text-transform: uppercase;
   font-weight: 200;
   font-size: 14px;
 }
+
 .container:after {
-content: "";
-display: table;
-clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
+
 .navbar a {
   color: white;
   text-decoration: none;
   margin: 5px
 }
-.logo,.menu_left, .menu_right{
+
+.logo, .menu_left, .menu_right {
   float: left;
   color: white
 }
-.logo{
+
+.logo {
   width: 15%;
   background-repeat: no-repeat;
-
 }
-.menu_left{
+
+.menu_left {
   width: 50%
 }
-.menu_right{
+
+.menu_right {
   width: 35%;
   text-align: right;
 }
 
-
-.btn{
+.btn {
   text-transform: uppercase;
   color: white;
   border-radius: 10%;
   margin: 0 20px;
 }
-.login{
+
+.login {
   background: #0d325a;
   width: 84px;
   height: 23px;
   border: 1px solid white;
 }
-.green{
+
+.green {
   width: 162px;
   height: 23px;
   background-color: #7CBB02
 }
-.banner {
 
+.banner {
   height: 420px;
   background-image: url(../img/banner_header.png);
   background-repeat: no-repeat;
   background-position: center right;
-  background-size:contain;
-
-
+  background-size: contain;
 }
-.banner_text{
+
+.banner_text {
   font-weight: 500;
   position: absolute;
   margin-left: 40px;
   width: 26%;
   top: 50%;
 }
-.struttura{
+
+.struttura {
   position: absolute;
   margin-left: 40px;
   top: 65%;
@@ -118,25 +128,29 @@ clear: both;
   margin-top: 20px;
 }
 
-#subheader{
+#subheader {
   padding: 40px 0;
   text-align: center;
 }
-#subheader p{
+
+#subheader p {
   color: grey
 }
-.first{
-  width: 108%;
-  border-bottom: 1px solid lightgrey;
-  padding: 8px 27px;
+
+.first {
+  width: 100%;
+
+  border-bottom: 1px solid black
 }
 
-.row{
+.row {
   float: left;
   width: 32%;
-text-align: center;
+  text-align: center;
+  padding: 4%
 }
-.profile, .computer, .doc{
+
+.profile, .computer, .doc {
   width: 100%;
   height: 200px;
   margin-bottom: 20px;
@@ -144,30 +158,49 @@ text-align: center;
   padding: 5px;
 }
 
-.profile_header{
+.hr_top_row {
+  margin: 20px 40%;
+  width: 20%;
+}
+
+.info_header {
   color: green;
   width: 100%
 }
-.mountain{
-  width: 60%;
-  height: 500px
+.info_text{
+color: lightgrey;
 }
 
-.image-left{
+.mountain {
+  width: 100%;
+  height: 650px;
+  margin-top: 20px
+}
+
+.image-left {
   float: left;
   width: 60%;
 }
 
-.text-right{
+.text-right {
   float: left;
   width: 40%;
 }
-.header_plan{
+
+.header_plan {
   font-size: 30.8px;
   margin-bottom: 20px;
   margin-top: 20px
 }
 
-.text_plan{
+.text_plan {
   margin-top: 20px
+}
+
+.link_plan {
+  margin-top: 20px
+}
+
+.titolone {
+  text-align: center;
 }
