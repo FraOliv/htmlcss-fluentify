@@ -22,10 +22,11 @@ body {
 }
 
 #site_header {
-  height: 500px;
+  height:550px;
   width: 100%;
   color: white;
   position: relative;
+
 }
 
 #site_content {
@@ -33,21 +34,24 @@ body {
 }
 
 #site_footer {
-  height: 150px
+  height: 130px
 }
 
 .container {
   width: 100%;
   margin: auto;
+  height: 130px
 }
 
 .navbar {
+  font-size: 11px;
   width: 100%;
   line-height: 80px;
   color: white;
   text-transform: uppercase;
   font-weight: 200;
-  font-size: 14px;
+  padding: 2%
+
 }
 
 .container:after {
@@ -100,7 +104,7 @@ body {
   background-color: #7CBB02;
 }
 
-.banner {
+.banner_image {
   height: 420px;
   background-image: url(../img/banner_header.png);
   background-repeat: no-repeat;
@@ -117,13 +121,17 @@ body {
 }
 
 .struttura {
+  color: white;
   position: absolute;
   margin-left: 40px;
   top: 65%;
-  width: 162px;
-  height: 23px;
+  width: 15%;
   background-color: #7CBB02;
   margin-top: 20px;
+  padding: 0%;
+  border-radius: 10%;
+  text-align: center;
+  height: 35px;
 }
 
 #subheader {
