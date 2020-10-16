@@ -22,11 +22,10 @@ body {
 }
 
 #site_header {
-  height:550px;
+  height: 500px;
   width: 100%;
   color: white;
   position: relative;
-
 }
 
 #site_content {
@@ -34,24 +33,21 @@ body {
 }
 
 #site_footer {
-  height: 130px
+  height: 150px
 }
 
 .container {
-  width: 100%;
+  width: 97%;
   margin: auto;
-  height: 130px
 }
 
 .navbar {
-  font-size: 11px;
-  width: 100%;
+  width: 95%;
   line-height: 80px;
   color: white;
   text-transform: uppercase;
   font-weight: 200;
-  padding: 2%
-
+  font-size: 14px;
 }
 
 .container:after {
@@ -121,17 +117,14 @@ body {
 }
 
 .struttura {
-  color: white;
   position: absolute;
   margin-left: 40px;
+  color: white;
   top: 65%;
-  width: 15%;
+  width: 162px;
+  height: 23px;
   background-color: #7CBB02;
   margin-top: 20px;
-  padding: 0%;
-  border-radius: 10%;
-  text-align: center;
-  height: 35px;
 }
 
 #subheader {
@@ -214,10 +207,15 @@ body {
 .le {
   width: 50%
 }
-
-.ri {
+.ri{
   width: 50%;
-  text-align: center;
+  height: 150px;
+  padding: 2%
+}
+
+.select {
+  width: 20%;
+  height: 25px;
 }
 
 .titolone {
